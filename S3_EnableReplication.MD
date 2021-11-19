@@ -13,19 +13,19 @@
 10.	Click the Management tab.
 11.	In the Replication rules section, click Create replication rule.
 12.	Click Enable Bucket Versioning.
-13.	Set the following values:
-•	Replication rule configuration
-•	Replication rule name: CrossRegion
-•	Source bucket
-•	Choose a rule scope: This rule applies to all objects in the bucket
-•	Destination
-•	Bucket name:
+13.	Set the following values:  
+•	Replication rule configuration  
+•	Replication rule name: CrossRegion  
+•	Source bucket  
+•	Choose a rule scope: This rule applies to all objects in the bucket  
+•	Destination  
+•	Bucket name:  
 1.	Click into the box.
 2.	Select the appconfigprod2 bucket.
 3.	Click Choose path.
-4.	Click Enable bucket versioning.
-•	IAM role
-•	IAM role: Create new role
+4.	Click Enable bucket versioning.  
+•	IAM role  
+•	IAM role: Create new role  
 14.	Click Save.
 
 # Test Replication and Observe Results
