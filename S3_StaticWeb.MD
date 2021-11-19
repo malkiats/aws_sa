@@ -41,18 +41,18 @@ Note: If you are using Safari as your web browser, ensure that you remove the .t
 # Apply Bucket Policy
 1.	Back in S3, click the Permissions tab.
 2.	In the Bucket policy section, click Edit.
-3.	In the Policy box, enter the following JSON statement (replacing <BUCKET_ARN> with the bucket ARN provided right above the Policy box):
-4.	{
-"Version":"2012-10-17",
-"Statement":[{
-"Sid":"PublicReadGetObject",
-"Effect":"Allow",
-"Principal": "*",
-"Action":["s3:GetObject"],
-"Resource":["<BUCKET_ARN>/*"]
-}]
-}
-
+3.	In the Policy box, enter the following JSON statement (replacing <BUCKET_ARN> with the bucket ARN provided right above the Policy box):  
+{  
+"Version":"2012-10-17",    
+"Statement":[{  
+"Sid":"PublicReadGetObject",  
+"Effect":"Allow",  
+"Principal": "*",  
+"Action":["s3:GetObject"],  
+"Resource":["<BUCKET_ARN>/*"]  
+}]  
+}  
+  
 Note: Ensure the trailing /* is present so the policy applies to all objects within the bucket.  
 13.	Click Save changes.
 14.	Refresh the browser tab with the static website (the endpoint URL you opened a minute ago). This time, it should load the site correctly.
