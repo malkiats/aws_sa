@@ -1,4 +1,4 @@
-Create an S3 Bucket and Enable Replication
+# Create an S3 Bucket and Enable Replication
 1.	Navigate to S3.
 2.	Copy the name of the lab-provided appconfigprod1 bucket.
 3.	Click Create bucket.
@@ -27,7 +27,8 @@ Create an S3 Bucket and Enable Replication
 •	IAM role
 •	IAM role: Create new role
 14.	Click Save.
-Test Replication and Observe Results
+
+# Test Replication and Observe Results
 1.	Click The appconfigprod1 bucket link in the breadcrumb trail navigation at the top of the screen.
 2.	Click Upload.
 3.	Either drag a file to the window or click Add file to upload a file of your choice.
