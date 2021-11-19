@@ -2,7 +2,7 @@
 1.	Navigate to S3.
 2.	Copy the name of the lab-provided appconfigprod1 bucket.
 3.	Click Create bucket.
-4.	Set the following values:
+4.	Set the following values: \\
 •	Name: Paste the name you copied, but replace appconfigprod1 with appconfigprod2 and add some random characters to the end to ensure it is globally unique.
 •	AWS Region: US West (Oregon) us-west-2
 5.	Under Copy settings from existing bucket, click Choose bucket.
