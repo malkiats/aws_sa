@@ -34,6 +34,6 @@
 3.	Either drag a file to the window or click Add file to upload a file of your choice.
 4.	Click Upload.
 5.	Click Buckets in the left-hand menu.
-6.	Click the appconfigprod2 bucket to open it.
+6.	Click the appconfigprod2 bucket to open it.   
 •	You should see the file you uploaded to appconfigprod1. If it isn't there yet, refresh and wait a few minutes.   
 Note: To speed the replication you can turn on "predictable replication time" in the Replication rule.
